@@ -1,0 +1,18 @@
+.macroList {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 600px;
+}
+
+.macroListContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.newButton {
+    flex-grow: 1;
+}

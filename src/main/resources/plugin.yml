@@ -1,0 +1,17 @@
+name: PaperMacros
+version: '${version}'
+main: com.vicr123.papermacros.PaperMacros
+api-version: 1.18
+load: STARTUP
+description: Run a set of commands with one command
+website: vicr123.com
+commands:
+  macro:
+    description: Run a macro
+    usage: /macro macro
+  edmacro:
+    description: Edit your macros
+    usage: edmacro
+#  gmacro:
+#    description: Run a global macro
+#    usage: /gmacro macro
